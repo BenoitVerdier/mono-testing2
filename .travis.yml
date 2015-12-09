@@ -5,7 +5,7 @@ install:
   - dnvm upgrade
   - dnu restore
 script:
-  - dnu build ./src/HelloWorld/project.jsonn
+  - dnu build ./src/HelloWorld/project.jsonnn
 notifications:
   email:
     on_success: change
